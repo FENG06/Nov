@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+
+    <!--<RelativeLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+
+    <!--<ImageView-->
+    <!--android:id="@+id/back"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:src="@drawable/back">-->
+
+    <!--</ImageView>-->
+
+    <com.example.mytest.myapp.activity.view.DrawableTextView
+        android:id="@+id/reg_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:drawableLeft="@drawable/back"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="注册"
+        android:textColor="#FFF"
+        android:textSize="20dp" />
+
+
+    <!--<Title-->
+
+
+    <!--</RelativeLayout>-->
+
+
+    <EditText
+        android:id="@+id/edt_name1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/reg_name"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/reg_name"
+        android:hint="请输入用户名"
+        android:paddingRight="80dp" />
+
+
+    <EditText
+        android:id="@+id/edt_password1"
+        android:layout_width="243dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reg_pass"
+        android:drawablePadding="10dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:paddingRight="80dp" />
+
+
+    <EditText
+        android:id="@+id/edt_phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/reg_phone"
+        android:drawablePadding="10dp"
+        android:hint="请输入手机号码"
+        android:paddingRight="80dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edt_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:hint="请输入验证码" />
+
+        <Button
+            android:id="@+id/btn_num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_toEndOf="@+id/edt_num1"
+            android:layout_toRightOf="@+id/edt_num1"
+            android:background="@drawable/bt_login"
+            android:padding="10dp"
+            android:text="点击发送验证码"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_reg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bt_login"
+        android:text="注册"
+        android:textColor="@color/white" />
+
+</LinearLayout>

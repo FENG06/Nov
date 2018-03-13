@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hospitallist">
+        <item>西南医院</item>
+        <item>新桥医院</item>
+        <item>重庆医科大学附属医院</item>
+        <item>重庆肿瘤医院</item>
+        <item>西京医院</item>
+        <item>301医院</item>
+
+
+    </string-array>
+
+</resources>

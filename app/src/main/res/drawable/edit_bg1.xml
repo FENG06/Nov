@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+
+        <shape android:shape="rectangle">
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            <solid android:color="#FFFFFF" />
+            <stroke
+                android:width="0.5px"
+                android:color="#E222" />
+        </shape>
+
+
+    </item>
+
+
+</layer-list>
