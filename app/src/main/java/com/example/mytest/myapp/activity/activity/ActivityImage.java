@@ -22,6 +22,10 @@ import com.example.mytest.myapp.R;
 
 public class ActivityImage extends Activity {
 
+    /*
+    * 这一部分要做详细更改
+    * */
+
 
     private int[] image = new int[]{R.drawable.image1, R.drawable.image2, R.drawable.image3, R.drawable.image4};
 
