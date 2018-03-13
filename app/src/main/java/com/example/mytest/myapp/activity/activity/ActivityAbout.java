@@ -10,6 +10,7 @@ import com.example.mytest.myapp.R;
  * Created by Zhou on 2017/11/28.
  */
 
+
 public class ActivityAbout extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
