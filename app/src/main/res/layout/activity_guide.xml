@@ -6,13 +6,20 @@
     android:background="@color/color_eeeeee"
     android:orientation="vertical">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/app_name" />
+
     <ListView
         android:id="@+id/news"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:divider="@color/black1"
-        android:dividerHeight="0.3dp" />
+        android:dividerHeight="1dp" />
 
 
 </LinearLayout>
