@@ -91,6 +91,12 @@
         <activity android:name=".activity.activity.TypeShowActivity">
 
         </activity>
+
+        <activity android:name=".activity.activity.ActivityGuide">
+
+        </activity>
+
+
     </application>
 
 </manifest>
